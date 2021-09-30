@@ -1,0 +1,104 @@
+*{
+    margin: 0%;
+    padding:0%;
+}
+
+h1{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+h2{
+    font-size: 14px bold Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+
+header,section,footer,aside,nav,article,hgroup{
+    display: block;
+}
+
+body{
+    text-align: center ;
+    background-attachment: whitesmoke;
+}
+
+.Contenedor{
+    width: 960px;
+    background: grey;
+    border: 1px solid black;
+    margin: 15px auto;
+}
+
+.cabecera{
+    background-color: hsl(0, 15%, 87%);
+    padding: 20px;
+}
+
+.cabecera h1{
+    text-align: center;
+}
+
+.menu{
+    background-color: #f7d4d4;
+    text-align: left;
+    padding: 5px 15px;
+
+}
+.menu li{
+    list-style: none;
+    padding: 5px;
+    font : bold 14px Arial;
+    display: inline-block;
+}
+
+.seccion{
+    margin: 20px;
+    width: 600px;
+    float: left;
+}
+
+article{
+    background-color: #d9ebeb;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+
+article time{
+    color: #5c4848;
+    display: block;
+    text-align: left;
+}
+
+article footer {
+    text-align: left;
+    margin-top: 20px;
+    padding-left: 20px;
+}
+
+article p{
+    text-align: justify;
+}
+
+.aside{
+margin: 20px 0px;
+width: 300px;
+float: left;
+}
+
+.aside blockquote{
+    padding: 26px;
+    background-color: #d9ebeb;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.footer{
+    padding: 20px;
+    background-color: gray;
+    color :white;
+    clear: both;
+}
